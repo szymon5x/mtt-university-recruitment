@@ -1,0 +1,8 @@
+<input type="text" placeholder="Type to search..." />
+
+<div class="universities">
+  <app-university-element
+    *ngFor="let university of universities$ | async"
+    [university]="university"
+  ></app-university-element>
+</div>

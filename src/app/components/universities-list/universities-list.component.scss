@@ -1,0 +1,19 @@
+input[type=text] {
+  width: 100%;
+  padding: .875rem 1.25rem;
+  margin: .5rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  box-sizing: border-box;
+}
+
+.universities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  app-university-element {
+    width: 33%;
+  }
+}

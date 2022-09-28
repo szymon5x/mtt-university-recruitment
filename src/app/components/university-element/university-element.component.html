@@ -1,0 +1,17 @@
+<div class="university">
+  <div class="university__header">{{ university.name }}</div>
+  <div class="value__wrapper">
+    <div class="value">
+      <div class="value__label">Country</div>
+      {{ university.country }}
+    </div>
+    <div class="value">
+      <div class="value__label">Number of domains</div>
+      {{ university.domains.length }}
+    </div>
+    <div class="value">
+      <div class="value__label">Domains</div>
+      {{ university.domains | json }}
+    </div>
+  </div>
+</div>
